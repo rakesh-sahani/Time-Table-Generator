@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D2D2D22-442B-4DED-A025-ED3B6C272A95}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TimeTableGenerator.My.MyApplication</StartupObject>
+    <RootNamespace>TimeTableGenerator</RootNamespace>
+    <AssemblyName>TimeTableGenerator</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TimeTableGenerator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TimeTableGenerator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF5">
+      <HintPath>Dll\MySql.Data.Entity.EF5.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.8.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.8.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCourse.Designer.vb">
+      <DependentUpon>AddCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFaculty.Designer.vb">
+      <DependentUpon>AddFaculty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddFaculty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTimeTable.Designer.vb">
+      <DependentUpon>AddTimeTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddTimeTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.Designer.vb">
+      <DependentUpon>AdminPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacultyPanel.Designer.vb">
+      <DependentUpon>FacultyPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModCourse.Designer.vb">
+      <DependentUpon>ModCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModCourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModFaculty.Designer.vb">
+      <DependentUpon>ModFaculty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModFaculty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModTimeTable.Designer.vb">
+      <DependentUpon>ModTimeTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModTimeTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ViewCourse.Designer.vb">
+      <DependentUpon>ViewCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFaculty.Designer.vb">
+      <DependentUpon>ViewFaculty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFaculty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFCourse.Designer.vb">
+      <DependentUpon>ViewFCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFCourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFFaculty.Designer.vb">
+      <DependentUpon>ViewFFaculty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFFaculty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFTimeTable.Designer.vb">
+      <DependentUpon>ViewFTimeTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFTimeTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTimeTable.Designer.vb">
+      <DependentUpon>ViewTimeTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTimeTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddCourse.resx">
+      <DependentUpon>AddCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFaculty.resx">
+      <DependentUpon>AddFaculty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTimeTable.resx">
+      <DependentUpon>AddTimeTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.resx">
+      <DependentUpon>AdminPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyPanel.resx">
+      <DependentUpon>FacultyPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModCourse.resx">
+      <DependentUpon>ModCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModFaculty.resx">
+      <DependentUpon>ModFaculty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModTimeTable.resx">
+      <DependentUpon>ModTimeTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCourse.resx">
+      <DependentUpon>ViewCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFaculty.resx">
+      <DependentUpon>ViewFaculty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFCourse.resx">
+      <DependentUpon>ViewFCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFFaculty.resx">
+      <DependentUpon>ViewFFaculty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFTimeTable.resx">
+      <DependentUpon>ViewFTimeTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTimeTable.resx">
+      <DependentUpon>ViewTimeTable.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Header.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\LoginB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Submit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\search.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cancel.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
