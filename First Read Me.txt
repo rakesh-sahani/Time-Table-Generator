@@ -1,0 +1,26 @@
+Instruction How to Use:
+1. Install the MySQl Setup Set Mysql Password is 1234 dont change
+
+2. Install SqlYog and click on New Connection fill the details
+or already filled you just need to enter password enter same password 
+entered in mysql 1234
+  
+ 3. Open SQLyog and Click on File and Select open and select the file TimeTable.sql
+ 
+ 4 then TimeTable.sql is open click on TimeTable.sql And press Ctrl+F9 
+ or click on TimeTable.sql and click right button and select Execute Query and then
+ select Execute all Queries
+ 
+ 5. Then install the TimeTable Generator.exe
+ 
+ Login ID
+ Admin
+ 
+ User Nanme : Admin
+ Password : Admin 
+ 
+ Faculty 
+ User Name : Uzma Ali
+ Password : UzmaAli
+ 
+ 
