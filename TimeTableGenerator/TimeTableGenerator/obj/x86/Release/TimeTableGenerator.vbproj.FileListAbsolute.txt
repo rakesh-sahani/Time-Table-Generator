@@ -1,0 +1,17 @@
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.AddCourse.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.AddFaculty.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.AddTimeTable.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.AdminPanel.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.FacultyPanel.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.Login.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.ModCourse.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.ModFaculty.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.ModTimeTable.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.Resources.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.ViewCourse.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.ViewFaculty.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.ViewFCourse.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.ViewFFaculty.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.ViewFTimeTable.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.ViewTimeTable.resources
+C:\Users\D3V1L\Documents\Visual Studio 2010\Projects\TimeTableGenerator\TimeTableGenerator\obj\x86\Release\TimeTableGenerator.vbproj.GenerateResource.Cache
